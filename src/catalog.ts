@@ -1,4 +1,4 @@
-export type Product = {id:number; name:string; category:string; price:number; old?:number; rating:number; image:string; badge?:string};
+export type Product = {id:number; name:string; category:string; price:number; old?:number; rating:number; image:string; badge?:string;images?:string[]};
 export const defaultProducts:Product[] = [
 {id:1,name:'Wireless Studio Headphones',category:'electronics',price:499,old:699,rating:4.9,image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80',badge:'-29%'},
 {id:2,name:'Minimal Everyday Watch',category:'fashion',price:329,old:420,rating:4.8,image:'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80',badge:'Popular'},
