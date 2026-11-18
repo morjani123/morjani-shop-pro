@@ -1,4 +1,4 @@
-import { readCatalog } from './catalog';
+import { readCatalog, type Product } from './catalog';
 import AdminDemo from './AdminDemo';
 import { useEffect, useMemo, useState } from 'react';
 import { Search, ShoppingBag, Heart, UserRound, Sun, Moon, Menu, X, ArrowRight, Truck, ShieldCheck, Headphones, Star, Minus, Plus, Trash2, SlidersHorizontal, Check, Globe } from 'lucide-react';
