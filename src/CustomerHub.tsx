@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import {readCatalog} from './catalog';
-import {UserRound,PackageSearch,Star,ArrowLeft,ShoppingBag} from 'lucide-react';
+import {UserRound,PackageSearch,Star,ArrowLeft} from 'lucide-react';
 import './customer.css';
 type Lang='fr'|'en'|'ar';
 type Order={id:string;customer:string;date:string;total:number;status:string;phone?:string;city?:string;items?:{productId:number;quantity:number;price:number}[]};
